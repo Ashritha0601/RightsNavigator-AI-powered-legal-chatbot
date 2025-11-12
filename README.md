@@ -52,31 +52,32 @@ Legal documents are often too complex and scattered, making it difficult for peo
 ✔️ Step-by-step guidance for accommodations  
 ✔️ Voice-friendly experience for users with mobility impairments  
 
+
+---
+
+## 📂 Project Structure
+- **Data_Folder/ – Contains legal documents and knowledge base
+- **chroma_db/ – Database index for efficient retrieval
+- **persisted_index/ – Stored indices for reuse
+- **query_engine.py – Core query processing module
+- **webui.py – Web interface for chat interaction
+- **gnu.ipynb – Notebook for testing and prototyping
+- **requirements.txt – Python dependencies
+- **.gitignore.txt – Git ignore configuration
+
 ---
 
 ## 👩‍💻 Team & Mentors
-- **Team Members:** Arun G, Pavan Kalyan Natukula, Chinmai Kaveti, Ashritha Battula, Harshitha Devabhaktuni  
+- **Team Members:** Ashritha Battula, Harshitha Devabhaktuni, Arun G, Pavan Kalyan Natukula, Chinmai Kaveti
 - **Mentors:** Haihua Chen & Brady Lund  
 - **Industry Inspiration:** Babak Alipour, Ray Morsali, PhD, MBA, Dr. Tanha  
 - **Organizers:** Hadiseh Gooran & Farhan Ar Rafi  
 
 ---
 
-## 📂 Project Structure
---Data_Folder/ – Contains legal documents and knowledge base
---chroma_db/ – Database index for efficient retrieval
---persisted_index/ – Stored indices for reuse
---query_engine.py – Core query processing module
---webui.py – Web interface for chat interaction
---gnu.ipynb – Notebook for testing and prototyping
---requirements.txt – Python dependencies
---.gitignore.txt – Git ignore configuration
-
----
-
 ## 🚀 Getting Started
 ```bash
-git clone https://github.com/kaveti27022001/Legal_aid_Chatbot.git
+git clone https://github.com/Ashritha0601/RightsNavigator-AI-powered-legal-chatbot.git
 cd Legal_aid_Chatbot
 pip install -r requirements.txt
 python webui.py
